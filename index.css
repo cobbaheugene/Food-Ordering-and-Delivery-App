@@ -65,6 +65,21 @@ section:nth-child(even){
     background: var(--green);
     letter-spacing: .1rem;
 }
+.btn1{
+    margin-top: 1.5rem;
+    display: inline-block;
+    font-size: 3.4rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 3rem;
+}
+
+.btn1:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
 
 header{
     position: fixed;
