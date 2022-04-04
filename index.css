@@ -2,8 +2,8 @@
 
 
 :root{
-    --green:#27ae60;
-    --black:#192a56;
+    --orange:#F28705;
+    --black:#267365;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -37,7 +37,7 @@ section:nth-child(even){
 
 .sub-heading{
     text-align: center;
-    color:var(--green);
+    color:var(--orange);
     font-size: 2rem;
     padding-top: 1rem;
 }
@@ -62,7 +62,7 @@ section:nth-child(even){
 }
 
 .btn:hover{
-    background: var(--green);
+    background: var(--orange);
     letter-spacing: .1rem;
 }
 .btn1{
@@ -77,7 +77,7 @@ section:nth-child(even){
 }
 
 .btn1:hover{
-    background: var(--green);
+    background: var(--orange);
     letter-spacing: .1rem;
 }
 
@@ -100,7 +100,7 @@ header .logo{
 }
 
 header .logo i{
-    color:var(--green);
+    color:var(--orange);
 }
 
 header .navbar a{
@@ -112,7 +112,7 @@ header .navbar a{
 header .navbar a.active,
 header .navbar a:hover{
     color:#fff;
-    background: var(--green);
+    background: var(--orange);
 }
 
 header .icons i,
@@ -132,7 +132,7 @@ header .icons a{
 header .icons i:hover,
 header .icons a:hover{
     color:#fff;
-    background: var(--green);
+    background: var(--orange);
     transform: rotate(360deg);
 }
 
@@ -161,7 +161,7 @@ header .icons #menu-bars{
 }
 
 .home .home-slider .slide .content span{
-    color:var(--green);
+    color:var(--orange);
     font-size: 2.5rem;
 }
 
@@ -231,7 +231,7 @@ header .icons #menu-bars{
 
 .about .row .content .icons-container .icons i{
     font-size: 2.5rem;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .about .row .content .icons-container .icons span{
@@ -281,7 +281,7 @@ header .icons #menu-bars{
 }
 
 .menu .box-container .box .image .fa-heart:hover{
-    background-color: var(--green);
+    background-color: var(--orange);
     color:#fff;
 }
 
@@ -296,7 +296,7 @@ header .icons #menu-bars{
 
 .menu .box-container .box .content .stars i{
    font-size: 1.7rem;
-   color:var(--green);
+   color:var(--orange);
 }
 
 .menu .box-container .box .content h3{
@@ -312,7 +312,7 @@ header .icons #menu-bars{
 }
 
 .menu .box-container .box .content .price{
-    color:var(--green);
+    color:var(--orange);
     margin-left: 1rem;
     font-size: 2.5rem;
 }
@@ -354,7 +354,7 @@ header .icons #menu-bars{
 
 .review .slide .user i{
     font-size: 1.3rem;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .review .slide p{
@@ -404,7 +404,7 @@ header .icons #menu-bars{
 
 .order form .inputBox .input input:focus,
 .order form .inputBox .input textarea:focus{
-    border:.1rem solid var(--green);
+    border:.1rem solid var(--orange);
 }
 
 .order form .inputBox .input textarea{
@@ -436,7 +436,7 @@ header .icons #menu-bars{
 }
 
 .footer .box-container .box a:hover{
-    color:var(--green);
+    color:var(--orange);
     text-decoration: underline;
 }
 
@@ -451,7 +451,7 @@ header .icons #menu-bars{
 }
 
 .footer .credit span{
-    color:var(--green);
+    color:var(--orange);
 }
 @media (max-width:991px){
 
