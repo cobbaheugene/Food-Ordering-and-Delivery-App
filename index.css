@@ -184,47 +184,7 @@ header .icons #menu-bars{
 
 
 
-.dishes .box-container .box .fa-heart{
-    right:-15rem;
-}
 
-.dishes .box-container .box .fa-eye{
-    left:-15rem;
-}
-
-.dishes .box-container .box:hover .fa-heart{
-    right:1.5rem;
-}
-
-.dishes .box-container .box:hover .fa-eye{
-    left:1.5rem;
-}
-
-.dishes .box-container .box img{
-    height:17rem;
-    margin:1rem 0;
-}
-
-.dishes .box-container .box h3{
-    color:var(--black);
-    font-size: 2.5rem;
-}
-
-.dishes .box-container .box .stars{
-    padding:1rem 0;
-}
-
-.dishes .box-container .box .stars i{
-    font-size: 1.7rem;
-    color:var(--green);
-}
-
-.dishes .box-container .box span{
-    color:var(--green);
-    font-weight: bolder;
-    margin-right: 1rem;
-    font-size: 2.5rem;
-}
 .about .row{
     display: flex;
     flex-wrap: wrap;
