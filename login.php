@@ -11,13 +11,13 @@ echo "Hello World";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Form</title>
+    <title>Login Form</title>
 </head>
 <body>
 
     <form style="float:right;" action="/welcome.php" method="post">
         <fieldset>
-        <legend>Personal Information</legend>
+        <legend>Login here with your Details</legend>
             <label for="fname">First Name:</label><br>
             <input type="text" id="fname" name="fname"  ><br>
         
@@ -30,15 +30,9 @@ echo "Hello World";
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password"><br>
             
-            <label for="car">Choose your car:</label><br>
-            <select name="car" id="car">
-                <option placeholder="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
-            </select><br>
+            <br>
 
-            <input type="submit" value="submit" actio>
+            <input type="submit" value="Login" action>
             
            
         </fieldset>
