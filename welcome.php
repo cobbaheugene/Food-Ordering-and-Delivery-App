@@ -1,6 +1,6 @@
 <?php
 
-$servername="localhost:7884";
+$servername="localhost:8080";
 $username="root";
 $password="";
 $database="swd";
@@ -18,11 +18,10 @@ $fname=$_POST["fname"];
 $lname=$_POST["lname"];
 $email=$_POST["email"];
 $password=$_POST["password"];
-$car=$_POST["car"];
 
 //prepare and bind
-$stmt = $conn->prepare("INERT INTO personal information(First Name, Last Name, Password, Email, Car) VALUES (?,?,?,?,?");
-$stmt ->bind_param("sssss", $fname, $lname,$password, $email, $car);
+$stmt = $conn->prepare("INERT INTO personal information(First Name, Last Name, Email, Password) VALUES (?,?,?,?");
+$stmt ->bind_param("ssss", $fname, $lname,$password, $email);
 $stmt ->execute();
 
 echo "New records created successfully";
@@ -46,7 +45,6 @@ $conn->close();
     Last name : <?php echo $_POST["lname"];?><br>
     Email     : <?php echo $_POST["email"]; ?><br>
     Password  : <?php echo $_POST["password"] ?><br>
-    Cars      : <?php echo $_POST ["car"] ?><br>
     
 </body>
 </html>
