@@ -3,7 +3,7 @@
 
 :root{
     --orange:#F28705;
-    --black:#267365;
+    --green:#267365;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -44,7 +44,7 @@ section:nth-child(even){
 
 .heading{
     text-align: center;
-    color:var(--black);
+    color:var(--green);
     font-size: 3rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ section:nth-child(even){
     display: inline-block;
     font-size: 1.7rem;
     color:#fff;
-    background: var(--black);
+    background: var(--green);
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
@@ -70,7 +70,7 @@ section:nth-child(even){
     display: inline-block;
     font-size: 3.4rem;
     color:#fff;
-    background: var(--black);
+    background: var(--green);
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
@@ -94,7 +94,7 @@ header{
 }
 
 header .logo{
-    color:var(--black);
+    color:var(--green);
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -124,7 +124,7 @@ header .icons a{
     width:4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color:var(--black);
+    color:var(--green);
     border-radius: 50%;
     background: #eee;
 }
@@ -166,7 +166,7 @@ header .icons #menu-bars{
 }
 
 .home .home-slider .slide .content h3{
-    color:var(--black);
+    color:var(--green);
     font-size: 7rem;
 }
 
@@ -197,7 +197,7 @@ header .icons #menu-bars{
 }
 
 .about .row .content h3{
-    color:var(--black);
+    color:var(--green);
     font-size: 4rem;
     padding:.5rem 0;
 }
@@ -236,7 +236,7 @@ header .icons #menu-bars{
 
 .about .row .content .icons-container .icons span{
     font-size: 1.5rem;
-    color:var(--black);
+    color:var(--green);
 }
 
 .menu .box-container{
@@ -277,7 +277,7 @@ header .icons #menu-bars{
     font-size: 2rem;
     background: #fff;
     border-radius: 50%;
-    color:var(--black);
+    color:var(--green);
 }
 
 .menu .box-container .box .image .fa-heart:hover{
@@ -300,7 +300,7 @@ header .icons #menu-bars{
 }
 
 .menu .box-container .box .content h3{
-    color:var(--black);
+    color:var(--green);
     font-size: 2.5rem;
 }
 
@@ -347,7 +347,7 @@ header .icons #menu-bars{
 }
 
 .review .slide .user h3{
-    color:var(--black);
+    color:var(--green);
     font-size: 2rem;
     padding-bottom: .5rem;
 }
@@ -396,7 +396,7 @@ header .icons #menu-bars{
     border-radius: .5rem;
     padding:1rem;
     font-size: 1.6rem;
-    color:var(--black);
+    color:var(--green);
     text-transform: none;
     margin-bottom: 1rem;
     width:100%;
@@ -425,7 +425,7 @@ header .icons #menu-bars{
 .footer .box-container .box h3{
     padding:.5rem 0;
     font-size: 2.5rem;
-    color:var(--black);
+    color:var(--green);
 }
 
 .footer .box-container .box a{
@@ -444,7 +444,7 @@ header .icons #menu-bars{
     text-align: center;
     border-top: .1rem solid rgba(0,0,0,.1);
     font-size: 2rem;
-    color:var(--black);
+    color:var(--green);
     padding:.5rem;
     padding-top: 1.5rem;
     margin-top: 1.5rem;
