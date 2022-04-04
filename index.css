@@ -182,35 +182,7 @@ header .icons #menu-bars{
 
 
 
-.dishes .box-container .box{
-    padding:2.5rem;
-    background:#fff;
-    border-radius: .5rem;
-    border:.1rem solid rgba(0,0,0,.2);
-    box-shadow: var(--box-shadow);
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
 
-.dishes .box-container .box .fa-heart,
-.dishes .box-container .box .fa-eye{
-    position: absolute;
-    top:1.5rem;
-    background:#eee;
-    border-radius: 50%;
-    height: 5rem;
-    width:5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    color:var(--black);
-}
-
-.dishes .box-container .box .fa-heart:hover,
-.dishes .box-container .box .fa-eye:hover{
-    background: var(--green);
-    color:#fff;
-}
 
 .dishes .box-container .box .fa-heart{
     right:-15rem;
