@@ -1,3 +1,7 @@
+<?php
+    require_once "./functions/processor.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,53 +19,45 @@
 <body>
     <section class="order" id="order">
 
-        <h3 class="sub-heading"> order now <?php echo $_GET['id'] ?> </h3>
+        <h3 class="sub-heading"> order now</h3>
         <h1 class="heading"> Fill the form to confirm your order </h1>
+        <p class="sub-heading"><?php create_order(); ?></p>
+        <form action="" method="POST" autocomplete="off">
     
-        <form action="">
-    
             <div class="inputBox">
                 <div class="input">
-                    <span>your name</span>
-                    <input type="text" placeholder="enter your name">
+                    <span>Full Name</span>
+                    <input type="text" name="name" placeholder="enter your name" required>
                 </div>
                 <div class="input">
-                    <span>your number</span>
-                    <input type="number" placeholder="enter your number">
+                    <span>Phone Number</span>
+                    <input type="number" name="phone" placeholder="enter your number" required>
+                </div>
+            </div>
+            <div class="inputBox">
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="how many orders" required>
+                </div>
+                <div class="input">
+                    <span>Quantity</span>
+                    <input type="number" name="qty" placeholder="how many orders" required>
                 </div>
             </div>
             <div class="inputBox">
                 <div class="input">
-                    <span>your order</span>
-                    <input type="text" placeholder="enter food name">
+                    <span>Address</span>
+                    <textarea name="address" placeholder="enter your address" id="" cols="30" rows="10" required></textarea>
                 </div>
                 <div class="input">
-                    <span>additional food</span>
-                    <input type="test" placeholder="extra with food">
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="input">
-                    <span>how much</span>
-                    <input type="number" placeholder="how many orders">
-                </div>
-                <div class="input">
-                    <span>date and time</span>
-                    <input type="datetime-local">
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="input">
-                    <span>your address</span>
-                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div class="input">
-                    <span>your message</span>
-                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                    <span>Additional Message</span>
+                    <textarea name="message" placeholder="enter your message" id="" cols="30" rows="10" required></textarea>
                 </div>
             </div>
     
-            <input type="submit" value="order now" class="btn">
+            <input type="submit" name="btn_order" value="order now" class="btn">
     
         </form>
     
