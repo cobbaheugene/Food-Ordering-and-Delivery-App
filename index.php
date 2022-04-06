@@ -1,3 +1,7 @@
+<?php
+    require_once "./functions/processor.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,45 +103,8 @@
 
     <div class="box-container">
 
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-1.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">order</a>
-                <span class="price">GHS 42.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-2.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 72.99</span>
-            </div>
-        </div>
+    <!-- fetch all food from database -->
+    <?php get_menu() ?>
 
         <div class="box">
             <div class="image">
@@ -277,7 +244,7 @@
                 <a href="order.html" class="btn">Order</a>
                 <span class="price">GHS 12.99</span>
             </div>
-        </div>
+        </div> 
 
     </div>
 
