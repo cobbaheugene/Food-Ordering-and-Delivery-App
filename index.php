@@ -341,15 +341,17 @@
 
     <h3 class="sub-heading"> Speak to Us </h3>
     <h1 class="heading"> Let's get Interactive </h1>
+    <p class="sub-heading"><?php create_comment(); ?></p>
 
-    <form action="inert.php" method="POST">
+
+    <form method="POST">
         <div class="inputBox">
             <div class="input">
                 <span>What do you want us to know about our services?</span>
-                <textarea name="" placeholder="enter your comments on our services" id="" cols="30" rows="10"></textarea>
+                <textarea name="comment" placeholder="enter your comments on our services" id="" cols="30" rows="10"></textarea>
             </div>
         </div>
-        <input type="submit" value="comment" class="btn">
+        <input type="submit" name="btn_comment" value="comment" class="btn">
     </form>
 
 </section>
