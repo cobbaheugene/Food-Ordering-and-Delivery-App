@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 07, 2022 at 12:38 AM
+-- Generation Time: Apr 07, 2022 at 12:42 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.7
 
@@ -63,7 +63,8 @@ CREATE TABLE `tbl_food` (
 
 INSERT INTO `tbl_food` (`id`, `name`, `description`, `price`, `rating`, `img_url`, `date`) VALUES
 (1, 'Margherita Pizza', 'Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.', '42.99', 4, 'menu-1.jpg', '2022-04-06 16:56:30'),
-(2, 'Stuffed Bean Burger', 'Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.', '72.99', 4, 'menu-2.jpg', '2022-04-06 16:57:53');
+(2, 'Stuffed Bean Burger', 'Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.', '72.99', 4, 'menu-2.jpg', '2022-04-06 16:57:53'),
+(3, 'Pan Cake', 'Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.', '44.99', 5, 'menu-3.jpg', '2022-04-06 22:41:53');
 
 -- --------------------------------------------------------
 
@@ -140,7 +141,7 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT for table `tbl_food`
 --
 ALTER TABLE `tbl_food`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `tbl_order`
