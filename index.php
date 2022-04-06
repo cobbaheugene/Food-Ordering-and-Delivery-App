@@ -106,146 +106,6 @@
     <!-- fetch all food from database -->
     <?php get_menu() ?>
 
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-3.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 44.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-4.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 32.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-5.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">order</a>
-                <span class="price">GHS 42.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-6.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 32.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-7.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 9.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-8.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 7.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-9.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>delicious food</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="order.html" class="btn">Order</a>
-                <span class="price">GHS 12.99</span>
-            </div>
-        </div> 
-
     </div>
 
 </section>
@@ -258,78 +118,8 @@
     <div class="swiper-container review-slider">
 
         <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-1.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
-            </div>
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-2.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
-            </div>
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-3.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
-            </div>
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="images/pic-4.png" alt="">
-                    <div class="user-info">
-                        <h3>john deo</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
-            </div>
+            <!-- Comments here -->
+            <?php get_comments(); ?>
 
         </div>
 
@@ -348,6 +138,7 @@
         <div class="inputBox">
             <div class="input">
                 <span>What do you want us to know about our services?</span>
+                <input type="text" name="name" placeholder="Full name" required>
                 <textarea name="comment" placeholder="enter your comments on our services" id="" cols="30" rows="10"></textarea>
             </div>
         </div>
