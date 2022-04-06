@@ -36,7 +36,7 @@ function get_menu()
             </div>
             <h3>".$row['name']."</h3>
             <p>".$row['description']."</p>
-            <a href=order.php?menu='".$row['id']."' class='btn'>order</a>
+            <a href=order.php?id=".$row['id']." class='btn'>order</a>
             <span class='price'>GHS ".$row['price']."</span>
         </div>
     </div>
