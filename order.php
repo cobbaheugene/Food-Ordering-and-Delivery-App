@@ -15,7 +15,7 @@
 <body>
     <section class="order" id="order">
 
-        <h3 class="sub-heading"> order now </h3>
+        <h3 class="sub-heading"> order now <?php echo $_GET['id'] ?> </h3>
         <h1 class="heading"> Fill the form to confirm your order </h1>
     
         <form action="">
