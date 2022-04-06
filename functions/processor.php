@@ -36,13 +36,84 @@ function get_menu()
             </div>
             <h3>".$row['name']."</h3>
             <p>".$row['description']."</p>
-            <a href=order.php?menu='".$row['id']."' class='btn'>order</a>
+            <a href=order.php?id=".$row['id']." class='btn'>order</a>
             <span class='price'>GHS ".$row['price']."</span>
         </div>
     </div>
       
       ";
     }
+  }
+
+  $conn->close();
+}
+
+function create_comment()
+{
+  if(isset($_POST['btn_comment']))
+  {
+    $comment = $_POST['comment'];
+    //we begin by defining database connection details
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "SWD";//create a database called SWD in phymyadmin if you have not done so
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);//connecting to the database with specified credentials
+    // Check connection
+    if ($conn->connect_error) {//checking if there are errors
+      die("Connection failed: " . $conn->connect_error);//Display this if there are errors
+    }
+
+    $sql = "INSERT INTO comments (`message`) VALUES ('$comment') ";
+    $result = $conn->query($sql);
+    if($result)
+    {
+      echo "THANK YOU FOR YOUR COMMENT!";
+    }
+
+    $conn->close();
+  }
+}
+
+
+function create_order()
+{
+  if(isset($_POST['btn_order']))
+  {
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $email = $_POST['phone'];
+    $qty = $_POST['qty'];
+    $address = $_POST['address'];
+    $message = $_POST['message'];
+    $fid = $_GET['id'];
+    $date = date("Y-m-d h:i:s");
+    $status = "processing";
+
+    //we begin by defining database connection details
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "SWD";//create a database called SWD in phymyadmin if you have not done so
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);//connecting to the database with specified credentials
+    // Check connection
+    if ($conn->connect_error) {//checking if there are errors
+      die("Connection failed: " . $conn->connect_error);//Display this if there are errors
+    }
+
+    $sql = 
+    "INSERT INTO `tbl_order`( `food_id`, `quantity`, `order_date`, `status`, `customer_name`, `customer_contact`, `customer_email`, `customer_address`, `message`) VALUES ('$fid','$qty','$date','$status','$name','$phone','$email','$address', '$message')";
+    $result = $conn->query($sql);
+    if($result)
+    {
+      echo "THANK YOU FOR YOUR ORDER!";
+    }
+
+    $conn->close();
   }
 }
 ?>
