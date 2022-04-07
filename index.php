@@ -1,5 +1,5 @@
 <?php
-    require_once "./functions/processor.php";
+    require_once "./functions/output.php";
 ?>
 
 <!DOCTYPE html>
@@ -25,14 +25,14 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#menu">Menu</a>
-            <a href="order.html">Order</a>
+            <a href="order.php">Order</a>
             <a href="#review">Review</a>
         </nav>
 
         <div class="icons">
             <i class="fas fa-bars" id="bars"></i>
             <a href="#" class="fas fa-heart"></a>
-            <a href="order.html" class="fas fa-shopping-cart"></a>
+            <a href="order.php" class="fas fa-shopping-cart"></a>
         </div>
     </header>
 
@@ -47,7 +47,7 @@
                     <span>Welcome to Mic Jean's</span>
                     <h3>Delicious Meals</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
-                    <a href="order.html" class="btn1">Place your order now</a>
+                    <a href="order.php" class="btn1">Place your order now</a>
                 </div>
                 <div class="image">
                     <img src="images/home-img-3.png" alt="">
