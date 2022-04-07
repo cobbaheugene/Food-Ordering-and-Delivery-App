@@ -1,3 +1,7 @@
+<!--Here will be a php code to display an information from a database table-->
+
+<!-- this code is for outputing information from the  database to the frontend by Fred -->
+
 <?php
 
 function get_menu()
@@ -156,7 +160,7 @@ function create_order()
     $result = $conn->query($sql);
     if($result)
     {
-      echo "THANK YOU FOR YOUR ORDER!";
+      echo "THANK YOU FOR YOUR ORDER! COME AGAIN NEXT TIME";
     }
 
     $conn->close();
