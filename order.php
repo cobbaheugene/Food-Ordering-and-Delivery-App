@@ -1,5 +1,5 @@
 <?php
-    require_once "./functions/processor.php";
+    require_once "./functions/output.php";
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +39,7 @@
             <div class="inputBox">
                 <div class="input">
                     <span>Email</span>
-                    <input type="email" name="email" placeholder="how many orders" required>
+                    <input type="email" name="email" placeholder="enter your email address" required>
                 </div>
                 <div class="input">
                     <span>Quantity</span>
